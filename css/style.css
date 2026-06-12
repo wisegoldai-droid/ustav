@@ -525,6 +525,12 @@ blockquote {
 }
 .footer__col {}
 .footer__brand { max-width: 320px; }
+.footer__brand-logo {
+  display: block;
+  width: clamp(180px, 24vw, 260px);
+  height: auto;
+  margin-bottom: .9rem;
+}
 .footer__brand strong { font-size: 1.05rem; color: #fff; }
 .footer__brand-name {
   font-size: 1.05rem;
@@ -696,6 +702,7 @@ nav.footer__links a:hover { color: var(--secondary); }
   .footer__inner { grid-template-columns: 1fr; gap: 2rem; }
   .footer__bottom-inner { flex-direction: column; text-align: center; }
   .footer__bottom { flex-direction: column; text-align: center; }
+  .footer__brand-logo { width: clamp(160px, 56vw, 220px); }
   .navbar__logo-img { height: clamp(30px, 7vw, 38px); }
   .hero { padding: 3rem 0 2.5rem; }
   .hero__actions { flex-direction: column; }
