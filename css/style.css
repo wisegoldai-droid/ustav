@@ -99,8 +99,8 @@ blockquote {
   flex-shrink: 0;
 }
 .navbar__logo-img {
-  width: clamp(250px, 34vw, 420px);
-  height: auto;
+  height: clamp(34px, 4.2vw, 46px);
+  width: auto;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -696,7 +696,7 @@ nav.footer__links a:hover { color: var(--secondary); }
   .footer__inner { grid-template-columns: 1fr; gap: 2rem; }
   .footer__bottom-inner { flex-direction: column; text-align: center; }
   .footer__bottom { flex-direction: column; text-align: center; }
-  .navbar__logo-img { width: clamp(180px, 62vw, 320px); }
+  .navbar__logo-img { height: clamp(30px, 7vw, 38px); }
   .hero { padding: 3rem 0 2.5rem; }
   .hero__actions { flex-direction: column; }
   .section { padding: 2.5rem 0; }
