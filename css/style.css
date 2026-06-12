@@ -91,11 +91,24 @@ blockquote {
 }
 .navbar__logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: .8rem;
   color: #fff;
   text-decoration: none;
   line-height: 1.2;
   flex-shrink: 0;
+}
+.navbar__logo-img {
+  width: 84px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.navbar__logo-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
 }
 .navbar__logo-main {
   font-size: 1rem;
@@ -670,6 +683,7 @@ nav.footer__links a:hover { color: var(--secondary); }
   .footer__inner { grid-template-columns: 1fr; gap: 2rem; }
   .footer__bottom-inner { flex-direction: column; text-align: center; }
   .footer__bottom { flex-direction: column; text-align: center; }
+  .navbar__logo-img { width: 68px; height: 34px; }
   .hero { padding: 3rem 0 2.5rem; }
   .hero__actions { flex-direction: column; }
   .section { padding: 2.5rem 0; }
